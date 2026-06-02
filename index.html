@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Иван Иванов — Технический специалист</title>
+  <meta name="description" content="Автоматизация, интеграции, боты и технический консалтинг. Решаю задачи бизнеса с помощью кода.">
+
+  <!-- Security headers via meta (frame-ancestors и X-Frame-Options требуют HTTP-заголовков — см. _headers) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'self'; form-action 'none'">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="no-referrer">
+
+  <!-- Google Fonts: preconnect снижает задержку, шрифт грузится параллельно CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Nav ── -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="#hero" class="nav__logo">[Имя]<span>.</span></a>
+      <ul class="nav__links">
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#process">Процесс</a></li>
+        <li><a href="#cases">Кейсы</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+        <li><a href="#quick-contact">Запрос</a></li>
+      </ul>
+      <a href="https://t.me/your_handle" class="nav__cta" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Написать</a>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero__tag">Технический специалист</div>
+      <h1 class="hero__name">Привет, я<br><span>[Ваше Имя]</span></h1>
+      <p class="hero__offer">
+        Автоматизирую процессы, строю интеграции и внедряю технические решения, которые экономят время и деньги вашего бизнеса.
+      </p>
+      <div class="hero__actions">
+        <a href="https://t.me/your_handle" class="btn-primary" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">
+          Написать в Telegram →
+        </a>
+        <a href="#cases" class="btn-secondary">Смотреть кейсы</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Services ── -->
+  <section id="services">
+    <div class="container">
+      <span class="section-label">Чем занимаюсь</span>
+      <h2 class="section-title">Что я делаю</h2>
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__icon">⚙️</div>
+          <h3 class="service-card__title">Автоматизация процессов</h3>
+          <p class="service-card__desc">
+            Нахожу рутинные операции и заменяю их скриптами и инструментами. Меньше ручной работы — меньше ошибок.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">🔗</div>
+          <h3 class="service-card__title">Интеграции и API</h3>
+          <p class="service-card__desc">
+            Связываю сервисы между собой: CRM, таблицы, мессенджеры, платёжные системы. Данные текут туда, куда надо.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">🤖</div>
+          <h3 class="service-card__title">Telegram-боты и скрипты</h3>
+          <p class="service-card__desc">
+            Разрабатываю ботов для уведомлений, обратной связи, приёма заявок и внутреннего управления командой.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">💡</div>
+          <h3 class="service-card__title">Технический консалтинг</h3>
+          <p class="service-card__desc">
+            Помогаю выбрать стек, оценить решение или разобраться в чужом коде. Без воды — по делу.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Process ── -->
+  <section id="process">
+    <div class="container">
+      <span class="section-label">Как строится работа</span>
+      <h2 class="section-title">Как я работаю</h2>
+      <div class="process__steps">
+
+        <div class="step">
+          <div class="step__num">01</div>
+          <div>
+            <h3 class="step__title">Разбор задачи</h3>
+            <p class="step__desc">Выясняю детали, цель и контекст. Никакого формализма — просто разговор по делу.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step__num">02</div>
+          <div>
+            <h3 class="step__title">Предложение решения</h3>
+            <p class="step__desc">Показываю подход, стек и сроки. Согласуем детали до начала работы.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step__num">03</div>
+          <div>
+            <h3 class="step__title">Реализация</h3>
+            <p class="step__desc">Работаю итерациями, держу в курсе. Вы видите прогресс, а не ждёте финала вслепую.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step__num">04</div>
+          <div>
+            <h3 class="step__title">Сдача и поддержка</h3>
+            <p class="step__desc">Всё задокументировано, объяснено и работает. Остаюсь на связи после сдачи.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Cases ── -->
+  <section id="cases">
+    <div class="container">
+      <span class="section-label">Портфолио</span>
+      <h2 class="section-title">Кейсы</h2>
+      <div class="cases__grid">
+
+        <div class="case-card">
+          <div class="case-card__thumb">[ скриншот / превью ]</div>
+          <div class="case-card__body">
+            <span class="case-card__tag">Автоматизация</span>
+            <h3 class="case-card__title">Название кейса № 1</h3>
+            <p class="case-card__desc">
+              Краткое описание задачи и результата. Что было до, что стало после внедрения решения.
+            </p>
+            <a href="#" class="case-card__link">Подробнее →</a>
+          </div>
+        </div>
+
+        <div class="case-card">
+          <div class="case-card__thumb">[ скриншот / превью ]</div>
+          <div class="case-card__body">
+            <span class="case-card__tag">Интеграция</span>
+            <h3 class="case-card__title">Название кейса № 2</h3>
+            <p class="case-card__desc">
+              Краткое описание задачи и результата. Что было до, что стало после внедрения решения.
+            </p>
+            <a href="#" class="case-card__link">Подробнее →</a>
+          </div>
+        </div>
+
+        <div class="case-card">
+          <div class="case-card__thumb">[ скриншот / превью ]</div>
+          <div class="case-card__body">
+            <span class="case-card__tag">Telegram-бот</span>
+            <h3 class="case-card__title">Название кейса № 3</h3>
+            <p class="case-card__desc">
+              Краткое описание задачи и результата. Что было до, что стало после внедрения решения.
+            </p>
+            <a href="#" class="case-card__link">Подробнее →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contacts ── -->
+  <section id="contacts">
+    <div class="container">
+      <span class="section-label">Связаться</span>
+      <h2 class="section-title">Есть задача?<br>Давайте обсудим</h2>
+      <p class="contacts__sub">Расскажите о проекте — отвечу в течение 24 часов и предложу решение.</p>
+      <div class="contacts__links">
+        <a href="https://t.me/your_handle" class="contact-btn contact-btn--tg" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.833.941z"/>
+          </svg>
+          Telegram
+        </a>
+        <a href="#" id="emailBtn" class="contact-btn contact-btn--email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+          </svg>
+          <span id="emailLabel">Написать email</span>
+        </a>
+      </div>
+      <p class="contacts__note">Отвечаю на все обращения в течение 24 часов</p>
+    </div>
+  </section>
+
+  <!-- ── Quick Contact ── -->
+  <section id="quick-contact">
+    <div class="container">
+      <span class="section-label">Быстрая связь</span>
+      <h2 class="section-title">Быстрая связь по email</h2>
+
+      <div class="form-wrap" id="formWrap">
+
+        <form class="lead-form" id="leadForm" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="fieldName">Имя <span class="form-optional">(необязательно)</span></label>
+            <input class="form-input" id="fieldName" type="text" name="name"
+                   placeholder="Как вас зовут?" autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="fieldEmail">Email <span class="form-required">*</span></label>
+            <input class="form-input" id="fieldEmail" type="email" name="email"
+                   placeholder="your@email.com" autocomplete="email" required>
+            <span class="form-error" id="emailError" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="fieldDesc">Краткое описание задачи <span class="form-optional">(необязательно)</span></label>
+            <textarea class="form-input form-textarea" id="fieldDesc" name="description"
+                      placeholder="Опишите задачу в двух словах..." rows="4"></textarea>
+          </div>
+
+          <button class="form-btn btn-primary" type="submit">Оставить запрос →</button>
+        </form>
+
+        <div class="form-success" aria-live="polite">
+          <div class="form-success__icon">✓</div>
+          <h3 class="form-success__title">Запрос отправлен!</h3>
+          <p class="form-success__text">Свяжусь с вами в течение 24 часов.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="container">
+      <span class="footer__name">[Имя]<span>.</span></span>
+      <span class="footer__copy">© 2026 — Все права защищены</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
